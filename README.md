@@ -1,5 +1,5 @@
 # SAT_mix
-SNPhylo modified project to connect prevaling population study methods, such as Treemix and Admixture.  
+SNPhylo modified tool to connect prevaling population study tools, such as Treemix and Admixture.  
 
 Original publication:  
 Lee T-H, Guo H, Wang X, Kim C, Paterson AH (2014) SNPhylo: a pipeline to construct a phylogenetic tree from huge SNP data. BMC Genomics 15(1):162.  
