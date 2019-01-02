@@ -49,9 +49,11 @@ See SAT_mix_manual.pdf to understand overall procedure.
 ### 3. Functional parameters  
 [ADMIXTURE]  
 Analyze population size from -k [int] to -K [int]  
+
 [TREEMIX]  
 * -t [tree_mix_group_index file]  
     See group_index_file format explained in the manual  
+
 [SNPhylo]  
 * -b [int]   
     Number of bootstrap sampling  
