@@ -1,5 +1,7 @@
 # SAT_mix
 SNPhylo modified project to connect prevaling population study methods, such as Treemix and Admixture.  
+
+Original publication:  
 Lee T-H, Guo H, Wang X, Kim C, Paterson AH (2014) SNPhylo: a pipeline to construct a phylogenetic tree from huge SNP data. BMC Genomics 15(1):162.  
 
 The original script modified by JaeJin Choi in 2014.  
@@ -41,7 +43,7 @@ See SAT_mix_manual.pdf to understand overall procedure.
 * -M [float]  
     Missing rate (0)  
 * -P [output path]  
-    prefix_ouput_path (./output)
+    prefix_ouput_path (./output)  
 
 3. Functional parameters  
 [ADMIXTURE]  
