@@ -19,7 +19,7 @@ The original script modified by JaeJin Choi in 2014, at Korean Bioinformation Ce
 Run setup.sh (shell script) to check and setup requirements.  
 See ![SAT_mix_manual.pdf](SAT_mix_pack/SAT_mix_manual.pdf) to understand overall procedure.  
 
-## SAT_mix.sh
+## ![SAT_mix.sh](SAT_mix_pack/SAT_mix.sh)
 ### [Arguments]
 * -h or ?  
     Show help / options  
