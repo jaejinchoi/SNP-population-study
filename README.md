@@ -61,6 +61,7 @@ Analyze population size from -k [int] to -K [int]
     Outgroup_sample_name for a rooted tree  
 
 ### [Note]
+Linkage disequilibrium function acquires random seed and may result various output per run.  
 
 ### [Input]
 SNP data formats of VCF, PED HapMap, simple SNP or GDS.  
