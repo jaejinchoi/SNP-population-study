@@ -4,7 +4,7 @@ SNPhylo modified tool to connect prevaling population study tools, such as Treem
 Original publication:  
 Lee T-H, Guo H, Wang X, Kim C, Paterson AH (2014) SNPhylo: a pipeline to construct a phylogenetic tree from huge SNP data. BMC Genomics 15(1):162.  
 
-The original script modified by JaeJin Choi in 2014.  
+The original script modified by JaeJin Choi in 2014, at Korean Bioinformation Center (KOBIC).  
 
 ## Requirements  
 - Perl, for setup and run: http://www.perl.org/get.html
@@ -17,7 +17,7 @@ The original script modified by JaeJin Choi in 2014.
   
 ## Setup
 Run setup.sh (shell script) to check and setup requirements.  
-See SAT_mix_manual.pdf to understand overall procedure.  
+See ![SAT_mix_manual.pdf](SAT_mix_pack/SAT_mix_manual.pdf) to understand overall procedure.  
 
 ## SAT_mix.sh
 ### [Arguments]
@@ -66,7 +66,7 @@ Analyze population size from -k [int] to -K [int]
 SNP data formats of VCF, PED HapMap, simple SNP or GDS.  
 
 ### [Output]
-See the manual slide #3 'output'
+See the ![SAT_mix_manual.pdf](SAT_mix_pack/SAT_mix_manual.pdf) #3 'output'
 
 ## Limitation
 
