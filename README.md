@@ -1,18 +1,18 @@
 # SAT_mix
 SNPhylo + Admixture + Treemix.  
 
-Original publication for SNPhylo:  
-Lee T-H, Guo H, Wang X, Kim C, Paterson AH (2014) SNPhylo: a pipeline to construct a phylogenetic tree from huge SNP data. BMC Genomics 15(1):162. http://chibba.pgml.uga.edu/snphylo/
+Original script utilized in SNPhylo:  
+* Lee T-H, Guo H, Wang X, Kim C, Paterson AH (2014) SNPhylo: a pipeline to construct a phylogenetic tree from huge SNP data. BMC Genomics 15(1):162. http://chibba.pgml.uga.edu/snphylo/
 
 The original script modified and expanded by JaeJin Choi in 2014, at Korean Bioinformation Center (KOBIC).  
 
 ## Requirements  
 - Perl, for setup and run: http://www.perl.org/get.html
-- Python, for accessory functions
+- Python (version 2.7): https://www.python.org/download/releases/2.7/
 - MUSCLE: http://www.drive5.com/muscle/
 - ADMIXTURE: https://www.genetics.ucla.edu/software/admixture/
-- TREEMIX: https://code.google.com/p/treemix/
-- PLINK: http://pngu.mgh.harvard.edu/~purcell/plink/
+- TREEMIX: https://bitbucket.org/nygcresearch/treemix/wiki/Home
+- PLINK: http://zzz.bwh.harvard.edu/plink/download.shtml
 - Statistical R, for graphical presentation: http://www.r-project.org/index.html
   
 ## Setup
