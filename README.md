@@ -1,10 +1,10 @@
 # SAT_mix
 SNPhylo + Admixture + Treemix.  
 
-Original script utilized in SNPhylo:  
-* Lee T-H, Guo H, Wang X, Kim C, Paterson AH (2014) SNPhylo: a pipeline to construct a phylogenetic tree from huge SNP data. BMC Genomics 15(1):162. http://chibba.pgml.uga.edu/snphylo/
+Original template script, SNPhylo: https://github.com/thlee/SNPhylo    
+* Lee T-H, Guo H, Wang X, Kim C, Paterson AH (2014) SNPhylo: a pipeline to construct a phylogenetic tree from huge SNP data. BMC Genomics 15(1):162. 
 
-The original script modified and expanded by JaeJin Choi in 2014, at Korean Bioinformation Center (KOBIC).  
+The original script modified and expanded function by JaeJin Choi in 2014, at Korean Bioinformation Center (KOBIC).  
 
 ## Requirements  
 - Perl, for setup and run: http://www.perl.org/get.html
