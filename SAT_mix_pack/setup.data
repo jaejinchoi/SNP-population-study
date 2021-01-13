@@ -1,8 +1,8 @@
 R R http://www.r-project.org/index.html
-PYTHON python http://www.python.org/
+PYTHON python https://www.python.org/download/releases/2.7/
 MUSCLE muscle http://www.drive5.com/muscle/
 DNAML dnaml http://evolution.genetics.washington.edu/phylip/
-ADMIXTURE admixture https://www.genetics.ucla.edu/software/admixture/
-TREEMIX treemix https://code.google.com/p/treemix/
-PLINK plink http://pngu.mgh.harvard.edu/~purcell/plink/
+ADMIXTURE admixture http://dalexander.github.io/admixture/
+TREEMIX treemix https://bitbucket.org/nygcresearch/treemix/wiki/Home
+PLINK plink http://zzz.bwh.harvard.edu/plink/download.shtml
 PERL perl http://www.perl.org/get.html

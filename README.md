@@ -10,7 +10,8 @@ The original script modified and expanded function by JaeJin Choi in 2014, at Ko
 - Perl, for setup and run: http://www.perl.org/get.html
 - Python (version 2.7): https://www.python.org/download/releases/2.7/
 - MUSCLE: http://www.drive5.com/muscle/
-- ADMIXTURE: https://www.genetics.ucla.edu/software/admixture/
+- DNAML dnaml http://evolution.genetics.washington.edu/phylip/
+- ADMIXTURE: http://dalexander.github.io/admixture/
 - TREEMIX: https://bitbucket.org/nygcresearch/treemix/wiki/Home
 - PLINK: http://zzz.bwh.harvard.edu/plink/download.shtml
 - Statistical R, for graphical presentation: http://www.r-project.org/index.html
@@ -26,13 +27,15 @@ See ![SAT_mix_manual.pdf](SAT_mix_pack/SAT_mix_manual.pdf) to understand overall
 
 ### 1. Define input format; the default value in parenthesis for each parameter
 * -v [VCF_file]  
-    -p [Maximum_PLCS (5)], -c [Minimum_depth_of_coverage (5)]  
+    -p [Maximum_PLCS (5)]  
+    -c [Minimum_depth_of_coverage (5)]  
 * -H [HapMap_file]  
     -p [Maximum_PNSS (0)]  
 * -s [simple_SNP_file]  
     -p [Maximum_PNSS (0)]  
 * -d [GDS_file]  
-    -l [LD_thresgold 90.5)], -m [MAF_threshold (0.5)]
+    -l [LD_threshold 90.5)]
+    -m [MAF_threshold (0.5)]  
 * -a [PED (AGCT) file]  
 
 
@@ -40,7 +43,7 @@ See ![SAT_mix_manual.pdf](SAT_mix_pack/SAT_mix_manual.pdf) to understand overall
 * -l [float]  
     LD: Linkage Disequilibrium  
 * -m [float]  
-    MAF: Minor Allele Frequency
+    MAF: Minor Allele Frequency  
 * -M [float]  
     Missing rate (0)  
 * -P [output path]  
@@ -55,10 +58,8 @@ Analyze population size from -k [int] to -K [int]
     See group_index_file format explained in the manual  
 
 [SNPhylo]  
-* -b [int]   
-    Number of bootstrap sampling  
-* -o [str] 
-    Outgroup_sample_name for a rooted tree  
+* -b [int], Number of bootstrap sampling  
+* -o [str], Outgroup_sample_name for a rooted tree  
 
 ### [Note]
 Linkage disequilibrium function acquires random seed and may result various output per run.  
