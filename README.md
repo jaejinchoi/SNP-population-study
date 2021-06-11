@@ -17,7 +17,7 @@ The original script modified and expanded function by JaeJin Choi in 2014, at Ko
 - Statistical R, for graphical presentation: http://www.r-project.org/index.html
   
 ## Setup
-Run setup.sh (shell script) to check and setup requirements.  
+Run 'bash setup.sh' (shell script) to check and setup requirements.  
 See ![SAT_mix_manual.pdf](SAT_mix_pack/SAT_mix_manual.pdf) to understand overall procedure.  
 
 ## ![SAT_mix.sh](SAT_mix_pack/SAT_mix.sh)
