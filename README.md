@@ -1,4 +1,4 @@
-# SAT_mix
+# SAT_mix (under reconstruction)
 SNPhylo + Admixture + Treemix.  
 
 Original template script, SNPhylo: https://github.com/thlee/SNPhylo    
@@ -9,8 +9,10 @@ The original script modified and expanded function by JaeJin Choi in 2014, at Ko
 ## Requirements  
 - Perl, for setup and run: http://www.perl.org/get.html
 - Python (version 2.7): https://www.python.org/download/releases/2.7/
-- MUSCLE: http://www.drive5.com/muscle/
-- DNAML dnaml http://evolution.genetics.washington.edu/phylip/
+~~- MUSCLE: http://www.drive5.com/muscle/~~ (replace scheduled)
+- CLUSTALO: http://www.clustal.org/omega/
+~~- DNAML dnaml http://evolution.genetics.washington.edu/phylip/~~ (replace scheduled)
+- raxml-ng: https://github.com/amkozlov/raxml-ng
 - ADMIXTURE: http://dalexander.github.io/admixture/
 - TREEMIX: https://bitbucket.org/nygcresearch/treemix/wiki/Home
 - PLINK: http://zzz.bwh.harvard.edu/plink/download.shtml
