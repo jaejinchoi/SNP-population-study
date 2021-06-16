@@ -273,6 +273,8 @@ if (! is.null(opt$gds)) {
 }
 
 genofile <- openfn.gds(gds.file)
+#genofile <- snpgdsOpen(gds.file) #suggested for internal integrity check
+
 snpset <- snpgdsLDpruning(genofile, ld.threshold=ld.threshold, maf=maf.threshold, missing.rate=miss.rate, verbose=F) #LD pruning
 snpset.id <- unlist(snpset)
 
@@ -289,4 +291,5 @@ snpgdsGDS2PED(genofile, ped.fn=gds2.ped, sample.id=NULL, snp.id=snpset.id, use.s
 #verbose=T show information
 #specific format
 
-#closefn.gds(gds.file) #close after open file <-wonder why this rises error
+closefn.gds(gds.file) #close working file; rising error?
+#snpgdsClose(genofile) #close working file
