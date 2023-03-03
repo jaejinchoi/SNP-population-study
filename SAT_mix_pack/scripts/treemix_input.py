@@ -1,4 +1,4 @@
-import sys, os, shutil, getopt
+import sys, os, getopt
 
 
 def clade_define(load_path='', individual_index_dict={}):

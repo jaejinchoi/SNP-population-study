@@ -1,14 +1,15 @@
-# SAT_mix (under reconstruction)
-SNPhylo + Admixture + Treemix.  
+# SAT_mix. (Still) under renewal.
+SNPhylo + Admixture + Treemix (SAT)
 
-Original template script, SNPhylo: https://github.com/thlee/SNPhylo    
-* Lee T-H, Guo H, Wang X, Kim C, Paterson AH (2014) SNPhylo: a pipeline to construct a phylogenetic tree from huge SNP data. BMC Genomics 15(1):162. 
+## Purpose
+The original tool, SNPhylo (https://github.com/thlee/SNPhylo), is designed to build a phylogenetic tree from genome-wide SNPs of soybean. This updated tool added more feature to study population admixture (Admixture) and migration (Treemix), e.g., in humans.
 
-The original script modified and expanded function by JaeJin Choi in 2014, at Korean Bioinformation Center (KOBIC).  
+Most modification done in 2014, at Korean Bioinformation Center (KOBIC)
 
 ## Requirements  
 - Perl, for setup and run: http://www.perl.org/get.html
 - Python (version 2.7): https://www.python.org/download/releases/2.7/
+- Python3: https://www.python.org/downloads/
 - ~~MUSCLE: http://www.drive5.com/muscle/~~ (replace scheduled)
 - CLUSTALO: http://www.clustal.org/omega/
 - ~~DNAML dnaml http://evolution.genetics.washington.edu/phylip/~~ (replace scheduled)
@@ -27,7 +28,7 @@ See ![SAT_mix_manual.pdf](SAT_mix_pack/SAT_mix_manual.pdf) to understand overall
 * -h or ?  
     Show help / options  
 
-### 1. Define input format; the default value in parenthesis for each parameter
+### 1. Define input format; the default value in parenthesis
 * -v [VCF_file]  
     -p [Maximum_PLCS (5)]  
     -c [Minimum_depth_of_coverage (5)]  

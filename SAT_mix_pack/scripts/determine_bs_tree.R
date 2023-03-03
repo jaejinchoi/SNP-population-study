@@ -46,7 +46,7 @@ phylip <- read.phyDat(phylip.file, format="phylip", type="DNA")
 newick <- read.tree(newick.file)
 
 fit <- pml(newick, phylip)
-#fit <- optim.pml(fit, TRUE)
+# fit <- optim.pml(fit, TRUE)
 
 set.seed(1)
 bs <- bootstrap.pml(fit, bs = num.bs_sample, optNni=TRUE)

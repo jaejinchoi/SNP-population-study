@@ -3,7 +3,7 @@ require(optparse)
 require(dplyr)
 
 opt_list = list(
-	make_option(c("-n", "--name"), type="character", action="store", default="", help="Individual name contain file")
+	make_option(c("-n", "--name"), type="character", action="store", default="", help="Individual name containing file")
 )
 
 
